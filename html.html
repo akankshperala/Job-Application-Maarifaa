@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #EAE2D6;
+        }
+        .logo-text{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .flex{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav{
+            position: sticky;
+            top: 0;
+            padding: 10px;
+            background-color: #FFF2E0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="flex" style="padding: 2px;">
+            <img src="https://staging.maarifaa.com/img/maarifaa-logo.svg" alt="" width="50px">
+            <span style="padding: 5px;" class="flex logo-text">Maarifaa</span>
+        </div>
+        <ul class="flex" style="gap: 1rem;list-style-type: none;text-decoration: none;" >
+            <li><a style="color: inherit;text-decoration: none;" href="">Home</a></li>
+            <li><a style="color: inherit;text-decoration: none;" href="">Applications</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
